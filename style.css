@@ -47,4 +47,15 @@ body, .bt{
     font-family: Arial, sans-serif;
     color: #1D1E20;
 }
-
+.login{
+    animation-name: slide;
+    animation-duration: 3s;
+}
+@keyframes slide{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
